@@ -1,0 +1,84 @@
+/* Sfondo */
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  line-height: 50%;
+}
+
+/* Sfondo trasparente */
+.Contenitore{
+  width: 1000px;
+  height: 655px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  padding: 100px;
+}
+
+/* Dimensione Logo */
+img{
+  width: 255px;
+}
+
+/* Colore del Titolo */
+h1{
+  color: #32cd32;
+}
+
+/* Titolo e Barra Navigazione centrati */
+header,nav{
+  text-align: center;
+}
+
+/* Sfondo Barra Navigazione */
+.SfondoInput{
+  background-color: #32cd32;
+  height: 40px;
+}
+
+/* Barra di Navigazione */
+nav{
+  position: relative;
+  top: 10px;
+}
+
+/* Testo Principale */
+main{
+  color: white;
+}
+
+/* Spostamento sezioni */
+section{
+  padding-bottom: 25px;
+}
+
+/* Barra monopattini generale */
+.BarraMonopattino{
+  position: relative;
+  top: 7px;
+  height: 25px;
+  border-radius: 5%;
+}
+
+/* Barra Gino */
+.BarraMonopattino.Gino{
+  background-color: #f5b453;
+  width: 350px;
+
+}
+
+/* Barra Mike */
+.BarraMonopattino.Mike{
+  background-color: #00bb2d;
+  width: 600px;
+}
+
+/* Barra Fede */
+.BarraMonopattino.Fede{
+  background-color: #be4141;
+  width: 130px;
+}
